@@ -23,8 +23,7 @@
     - suitStorage
   - type: AmmoCounter
   - type: Gun
-    fireRate: 7.2
-    angleIncrease: 1.5
+    fireRate: 7.5
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -69,10 +68,4 @@
     appearanceDataInit:
      enum.AmmoVisuals.MagLoaded: false
   - type: FarGunshot
-    range: 260
     sound: /Audio/_FinalHorizon/Weapons/Guns/Far/ak_dist.ogg
-  - type: GunWieldBonus
-    minAngle: -45
-    maxAngle: -43
-  - type: WieldableDoAfter
-    timer: 0.6

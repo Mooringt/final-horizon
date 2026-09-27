@@ -17,9 +17,9 @@
     - timer
   - type: Explosive
     explosionType: FHDefault
-    maxIntensity: 100
+    maxIntensity: 200
     intensitySlope: 30
-    totalIntensity: 1000
+    totalIntensity: 2500
     maxTileBreak: 10
   - type: TimerTrigger
     delay: 30
@@ -46,9 +46,9 @@
     - timer
   - type: Explosive
     explosionType: FHDefault
-    maxIntensity: 100
+    maxIntensity: 200
     intensitySlope: 30
-    totalIntensity: 1000
+    totalIntensity: 2500
     maxTileBreak: 10
   - type: TimerTrigger
     delay: 30

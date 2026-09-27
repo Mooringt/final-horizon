@@ -36,3 +36,17 @@
   - type: HideLayerClothing
     layers:
       Hair: HEAD
+
+- type: entity
+  parent: ClothingHeadBase
+  id: FHClothingHeadHatBeretVDV
+  name: VDV Beret
+  description: Always deploying in contested airspace.
+  components:
+  - type: Sprite
+    sprite: _FinalHorizon/Clothing/Head/Hats/vdv_beret.rsi
+  - type: Clothing
+    sprite: _FinalHorizon/Clothing/Head/Hats/vdv_beret.rsi
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD

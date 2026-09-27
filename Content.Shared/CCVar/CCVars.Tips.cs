@@ -1,4 +1,4 @@
-﻿using Robust.Shared.Configuration;
+using Robust.Shared.Configuration;
 
 namespace Content.Shared.CCVar;
 
@@ -8,7 +8,7 @@ public sealed partial class CCVars
     ///     Whether tips being shown is enabled at all.
     /// </summary>
     public static readonly CVarDef<bool> TipsEnabled =
-        CVarDef.Create("tips.enabled", true);
+        CVarDef.Create("tips.enabled", false); // FH
 
     /// <summary>
     ///     The dataset prototype to use when selecting a random tip.

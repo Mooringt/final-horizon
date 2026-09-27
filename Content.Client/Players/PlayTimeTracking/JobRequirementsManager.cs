@@ -51,6 +51,7 @@ public sealed class JobRequirementsManager : ISharedPlaytimeManager
     private void RxJobRank(MsgJobRank msg) // FH start
     {
         _rank = msg.JobRank;
+        Updated?.Invoke();
     } // FH end
 
     private void ClientOnRunLevelChanged(object? sender, RunLevelChangedEventArgs e)

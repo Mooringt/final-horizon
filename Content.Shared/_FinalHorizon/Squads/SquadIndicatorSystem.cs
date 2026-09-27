@@ -43,7 +43,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbWhite = new()
         {
             Text = Loc.GetString("squad-indicator-verb-white"),
-            Act = () => comp.CurrentSquad = SquadTeams.White,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.White;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbWhite);
@@ -51,7 +55,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbRed = new()
         {
             Text = Loc.GetString("squad-indicator-verb-red"),
-            Act = () => comp.CurrentSquad = SquadTeams.Red,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.Red;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbRed);
@@ -59,7 +67,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbBlue = new()
         {
             Text = Loc.GetString("squad-indicator-verb-blue"),
-            Act = () => comp.CurrentSquad = SquadTeams.Blue,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.Blue;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbBlue);
@@ -67,7 +79,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbYellow = new()
         {
             Text = Loc.GetString("squad-indicator-verb-yellow"),
-            Act = () => comp.CurrentSquad = SquadTeams.Yellow,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.Yellow;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbYellow);
@@ -75,7 +91,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbGreen = new()
         {
             Text = Loc.GetString("squad-indicator-verb-green"),
-            Act = () => comp.CurrentSquad = SquadTeams.Green,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.Green;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbGreen);
@@ -83,7 +103,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbOrange = new()
         {
             Text = Loc.GetString("squad-indicator-verb-orange"),
-            Act = () => comp.CurrentSquad = SquadTeams.Orange,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.Orange;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbOrange);
@@ -91,7 +115,11 @@ public sealed partial class SquadIndicatorSystem : EntitySystem
         Verb verbPurple = new()
         {
             Text = Loc.GetString("squad-indicator-verb-purple"),
-            Act = () => comp.CurrentSquad = SquadTeams.Purple,
+            Act = () =>
+            {
+                comp.CurrentSquad = SquadTeams.Purple;
+                Dirty(uid, comp);
+            },
             Category = VerbCategory.JoinSquads,
         };
         args.Verbs.Add(verbPurple);

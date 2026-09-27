@@ -13,11 +13,11 @@
     explosionType: FHDefault
     maxIntensity: 10
     intensitySlope: 3
-    totalIntensity: 100
+    totalIntensity: 120
     maxTileBreak: 3
   - type: ProjectileGrenade
     fillPrototype: FHBulletFragment
-    capacity: 8
+    capacity: 10
     randomAngle: true
     triggerKey: trigger
   - type: Projectile

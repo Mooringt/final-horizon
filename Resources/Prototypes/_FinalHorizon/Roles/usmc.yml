@@ -230,7 +230,7 @@
     pouchleft: FHClothingPouchUSMCAmmoFilledSniper
     pouchright: FHClothingPouchUSMCAmmoFilledSniper
     suitstorage: FHWeaponSnipersM21
-    head: FHClothingHeadHelmetM1Woodland
+    head: FHClothingHeadHatBoonieUSMC
     pocket1: IFAKUSMCFilled
 
 - type: job
@@ -367,5 +367,5 @@
     pouchleft: FHClothingPouchUSMCAmmoFilled
     pouchright: FHClothingPouchUSMCAmmoFilled
     suitstorage: FHWeaponRifleM16A2
-    head: FHClothingHeadHelmetM1
+    head: FHClothingHeadHatPCUSMC
     pocket1: IFAKUSMCFilled

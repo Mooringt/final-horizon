@@ -16,11 +16,11 @@
     explosionType: FHDefault
     maxIntensity: 10
     intensitySlope: 3
-    totalIntensity: 50
+    totalIntensity: 60
     maxTileBreak: 3
   - type: ProjectileGrenade
     fillPrototype: FHBulletFragment
-    capacity: 8
+    capacity: 35
     randomAngle: true
     triggerKey: timer
   - type: TimerTrigger
@@ -47,11 +47,11 @@
     explosionType: FHDefault
     maxIntensity: 10
     intensitySlope: 3
-    totalIntensity: 60
+    totalIntensity: 70
     maxTileBreak: 3
   - type: ProjectileGrenade
     fillPrototype: FHBulletFragment
-    capacity: 6
+    capacity: 30
     randomAngle: true
     triggerKey: timer
   - type: TimerTrigger
@@ -78,11 +78,11 @@
     explosionType: FHDefault
     maxIntensity: 10
     intensitySlope: 3
-    totalIntensity: 70
+    totalIntensity: 90
     maxTileBreak: 3
   - type: ProjectileGrenade
     fillPrototype: FHBulletFragment
-    capacity: 4
+    capacity: 25
     randomAngle: true
     triggerKey: timer
   - type: TimerTrigger

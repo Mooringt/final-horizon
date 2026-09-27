@@ -8,5 +8,5 @@
       availableJobs: {}
     - type: StationSpawning
     - type: GraceWallManager
-      delay: 420
+      delay: 600
     - type: ConquestManager

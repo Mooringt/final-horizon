@@ -56,7 +56,7 @@
     maxItemSize: Small
     grid:
     - 0,0,2,1
-    - 4,0,7,1
+    - 4,0,6,1
     whitelist:
       tags:
       - MagazineLightRifle
