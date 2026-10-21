@@ -65,7 +65,13 @@
   id: CartridgeM406
 
 - type: Tag
+  id: CartridgeM406S
+
+- type: Tag
   id: CartridgeVOG25
+
+- type: Tag
+  id: CartridgeVOG25S
 
 # Radios
 - type: Tag
@@ -83,3 +89,15 @@
 
 - type: Tag
   id: FHMedical #for any medical items that need to go into ifaks
+
+- type: Tag
+  id: FHBrutepack
+
+- type: Tag
+  id: FHOintment
+
+- type: Tag
+  id: FHGauze
+
+- type: Tag
+  id: FHGauzePacketTrash
