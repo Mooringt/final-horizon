@@ -7,6 +7,6 @@
     deleteOnCollide: false
     damage:
       types:
-        Piercing: 20
+        Piercing: 25
   - type: TimedDespawn
     lifetime: 0.25

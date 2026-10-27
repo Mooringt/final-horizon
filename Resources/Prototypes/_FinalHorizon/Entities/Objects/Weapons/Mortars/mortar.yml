@@ -84,6 +84,6 @@
       - mortar
     - type: ProjectileGrenade
       fillPrototype: FHBulletFragment
-      capacity: 15
+      capacity: 30
       randomAngle: true
       triggerKey: mortar
