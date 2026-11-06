@@ -859,3 +859,25 @@
     spawn_type: LateJoinJob
   - type: Sprite
     state: green
+
+- type: entity
+  id: SpawnPointNVAAutoRifleMan
+  parent: SpawnPointJobBase
+  name: NVA autorifle man
+  components:
+  - type: SpawnPoint
+    job_id: NVAAutoRifleMan
+  - type: Sprite
+    state: green
+
+- type: entity
+  id: SpawnPointNVAAutoRifleManLate
+  parent: SpawnPointJobBase
+  name: NVA autorifle man
+  suffix: Late Join Spawn
+  components:
+  - type: SpawnPoint
+    job_id: NVAAutoRifleMan
+    spawn_type: LateJoinJob
+  - type: Sprite
+    state: green
